@@ -1,9 +1,7 @@
 <?php include("configuracion.php");
-//var_dump($contenido);die();
 ?>
 <!DOCTYPE html>
 <html>
-
 <head>
   <!-- Basic -->
   <meta charset="utf-8" />
@@ -17,6 +15,7 @@
 
   <title>Fanzolato</title>
 
+
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   <!-- fonts style -->
@@ -26,54 +25,28 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
-<body>
-
-  <!-- header section -->
-<?php include'./componentes/header.php' ?>
-  <!-- header end -->
 
 
-  <!-- special section -->
-<?php include'./componentes/SpecialSection.php' ?>
-  <!-- end special section -->
-
-
- <!-- start about section -->
-<?php include'./componentes/about.php' ?>
-  <!-- end about section -->
-
-
-  <!-- course section -->
- <?php include'./componentes/course.php' ?>
-  <!-- end course section -->
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+ <?php include'./componentes/header2.php' ?>
 
 
   <!-- login section -->
-  <?php include'./componentes/loginSection.php' ?>
+
+ <?php include'./componentes/loginSection2.php' ?>
+
+
   <!-- end login section -->
-
-
-  <!-- event section -->
-   <?php include'./componentes/eventSection.php' ?>
-  <!-- end event section -->
-
-  <!-- client section -->
-  <?php include'./componentes/clientSection.php' ?>
-  <!-- end client section -->
-
-
-  <!-- contact section -->
-  <?php include'./componentes/contactSection.php' ?>
-  <!-- end contact section -->
-
-
+  
   <!-- info section -->
-  <?php include'./componentes/infoSection.php' ?>
+<?php include'./componentes/infoSection.php' ?>
+
   <!-- end info section -->
 
-
   <!-- footer section -->
- <?php include'./componentes/footer.php' ?>
+<?php include'./componentes/footer.php' ?>
 
   <!-- footer section -->
 

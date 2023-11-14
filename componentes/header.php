@@ -5,7 +5,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <h3>
             <?php echo $contenido["header"]["nombre"];?>
             </h3>
@@ -21,19 +21,19 @@
               <a class="nav-link" href="index.php"><?php echo $contenido["header"]["home"];?><span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"><?php echo $contenido["header"]["acerca"];?></a>
+                <a class="nav-link" href="about.php"><?php echo $contenido["header"]["acerca"];?></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="course.html"><?php echo $contenido["header"]["curso"];?> </a>
+                <a class="nav-link" href="course.php"><?php echo $contenido["header"]["curso"];?> </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="event.html"> <?php echo $contenido["header"]["eventos"];?> </a>
+                <a class="nav-link" href="event.php"> <?php echo $contenido["header"]["eventos"];?> </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html"><?php echo $contenido["header"]["contactenos"];?></a>
+                <a class="nav-link" href="contact.php"><?php echo $contenido["header"]["contactenos"];?></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login.html"><?php echo $contenido["header"]["ingreso"];?></a>
+                <a class="nav-link" href="login.php"><?php echo $contenido["header"]["ingreso"];?></a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
