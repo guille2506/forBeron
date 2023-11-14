@@ -1,5 +1,0 @@
-<?php include("configuracion.php");?>
-
-
-
- 
