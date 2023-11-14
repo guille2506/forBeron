@@ -1,0 +1,11 @@
+<?php
+
+echo '
+
+    <article>
+
+    <article/>
+
+';
+
+?>
