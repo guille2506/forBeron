@@ -12,7 +12,7 @@ if (isset($usuarios[$email])) {
     if ($password === $usuarios[$email]) {
         echo '<script>
                 alert("Autenticación exitosa");
-                window.location.href = "course.php";
+                window.location.href = "Panelcourse.php";
              </script>';
         exit();
     } else {
