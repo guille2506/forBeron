@@ -33,6 +33,9 @@
     <?php include'./componentes/header3.php' ?>
   </div>
 
+
+  <?php include './componentes/AboutPanel.php'; ?>
+
   <!-- course section -->
   <?php include'./componentes/about.php' ?>
   <!-- end course section -->

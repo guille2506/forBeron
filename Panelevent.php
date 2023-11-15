@@ -33,6 +33,8 @@
     <?php include'./componentes/header3.php' ?>
   </div>
 
+  <?php include './componentes/EventPanel.php'; ?>
+
   <!-- course section -->
   <?php include'./componentes/eventSection.php' ?>
   <!-- end course section -->

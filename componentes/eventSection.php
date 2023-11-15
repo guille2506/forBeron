@@ -38,18 +38,18 @@
           </div>
           <div class="detail-box">
             <h4>
-            <?php echo $contenido["header"]["EducacionEvents"];?>
+            <?php echo $contenido["header"]["EducacionEvents2"];?>
             </h4>
             <h6>
-            <?php echo $contenido["header"]["HoraEvents"];?>
+            <?php echo $contenido["header"]["HoraEvents2"];?>
             </h6>
           </div>
           <div class="date-box">
             <h3>
               <span>
-              <?php echo $contenido["header"]["15"];?>
+              <?php echo $contenido["header"]["152"];?>
               </span>
-              <?php echo $contenido["header"]["Marzo"];?>
+              <?php echo $contenido["header"]["Marzo2"];?>
             </h3>
           </div>
         </div>

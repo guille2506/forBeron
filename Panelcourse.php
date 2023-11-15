@@ -29,33 +29,18 @@
 
 <body class="sub_page">
   <div class="hero_area">
-    <!-- header section strats -->
-    <?php include'./componentes/header3.php' ?>
+    <?php include './componentes/header3.php'; ?>
   </div>
 
+  <?php include './componentes/CursePanel.php'; ?>
 
-  <?php include'./componentes/CursePanel' ?>
+  <?php include './componentes/course.php'; ?>
 
+  <?php include './componentes/infoSection.php'; ?>
 
-  <!-- course section -->
-  <?php include'./componentes/course.php' ?>
-  <!-- end course section -->
-
-
-  <!-- info section -->
-<?php include'./componentes/infoSection.php' ?>
-  <!-- end info section -->
-
-
-  <!-- footer section -->
-  
-<?php include'./componentes/footer.php' ?>
-
-  <!-- footer section -->
+  <?php include './componentes/footer.php'; ?>
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-
 </body>
-
 </html>
